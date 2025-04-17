@@ -1,0 +1,77 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f6eee3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  background: #f0f0f0;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.tab-button.active {
+  background-color: #87CEFA;
+  color: #fff;
+}
+
+.form {
+  display: none;
+  flex-direction: column;
+}
+
+.form.active {
+  display: flex;
+}
+
+.form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #4E342E;
+}
+
+.form input {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  margin-top: 1rem;
+  padding: 10px;
+  border: none;
+  background-color: #87CEFA;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background-color: #4E342E;
+}

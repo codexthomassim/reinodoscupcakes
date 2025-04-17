@@ -86,12 +86,29 @@ header{
   font-weight: 400;
   padding-left: 2%;
 }
-#cart-icon{
-font-size: 1.8rem;
-cursor: pointer;
-padding-right: 2%;
-text-align: right;
+
+.icon-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px; /* Ajuste o valor pra mais ou menos espaço entre os ícones */
+  padding-right: 2%; /* Distância do grupo até a borda direita */
 }
+
+#cart-icon {
+  font-size: 1.8rem;
+  cursor: pointer;
+  text-align: right;
+  /* Remova o padding-right daqui */
+}
+
+#user-icon {
+  font-size: 1.8rem;
+  cursor: pointer;
+  text-align: right;
+  /* Remova o padding-right daqui */
+}
+
 #add-cart{
 font-size: 1.5rem;
 cursor: pointer;
@@ -117,6 +134,7 @@ color: var(--main-color);
   padding: 10px;
   background: #f6eee3;
   box-shadow: -2px 0px 4px hsl(0 4% 15% / 10%);
+  transition: 0.3s;
 }
 .cart.active {
   right: 0;
