@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro e Login | Reino dos Cupcakes</title>
+    <link rel="stylesheet" href="auth.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="tabs">
+        <button class="tab-button active" data-target="signup">
+          Criar Conta
+        </button>
+        <button class="tab-button" data-target="login">Login</button>
+      </div>
+
+      <!-- Formulário de Cadastro -->
+      <form id="signup" class="form active">
+        <h2>Cadastre-se</h2>
+        <input type="text" placeholder="Nome completo" required />
+        <input type="tel" placeholder="Telefone" required />
+        <input type="email" placeholder="E-mail" required />
+        <input type="password" placeholder="Senha" required />
+        <input type="text" placeholder="Endereço" required />
+        <button type="submit">Criar Conta</button>
+      </form>
+
+      <!-- Formulário de Login -->
+      <form id="login" class="form">
+        <h2>Entrar</h2>
+        <input type="email" placeholder="E-mail" required />
+        <input type="password" placeholder="Senha" required />
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+
+    <script src="auth.js"></script>
+  </body>
+</html>
