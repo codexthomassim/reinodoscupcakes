@@ -91,22 +91,20 @@ header{
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 10px; /* Ajuste o valor pra mais ou menos espaço entre os ícones */
-  padding-right: 2%; /* Distância do grupo até a borda direita */
+  gap: 10px; 
+  padding-right: 2%; 
 }
 
 #cart-icon {
   font-size: 1.8rem;
   cursor: pointer;
   text-align: right;
-  /* Remova o padding-right daqui */
 }
 
 #user-icon {
   font-size: 1.8rem;
   cursor: pointer;
   text-align: right;
-  /* Remova o padding-right daqui */
 }
 
 #add-cart{
